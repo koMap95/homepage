@@ -172,28 +172,41 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
+.skills__text-checkin-button{
+    background-color: var(--text-decoration-color);
+    padding: 5px 10px;
+    color: var(--primary-text-color);
+    border: 1px solid var(--secondary-text-color);
+    font-weight: bold;
+}
+.skills__text-emodji-reverse {
+    display: inline-block;
+    font-size: 20px;
+    transform: rotateY(180deg);
+    width: 30px;
+}
 
-/* --- EXPERIENCE AND ADDITIONAL INFO --- */
+/* --- HOBBIES --- */
 
-.experiences {
-    flex: 1 1 60%;
+.hobbies {
+    flex: 1 1 50%;
     margin-right: 50px;
 }
 
-.experiences__header {
+.hobbies__header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
 
-.experiences__company-header-durability {
+.hobbies__content-header-announcement {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.experiences__company-header-name {
+.hobbies__content-header-tag {
     color: var(--primary-text-color);
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
@@ -201,70 +214,39 @@ body {
     margin-bottom: 20px;
 }
 
-.experiences__company-project {
-    margin-left: 15px;
+.hobbies__content-item {
+    margin-left: 10px;
     margin-bottom: 25px;
 }
+.hobbies__content-item-quatrains {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+/* --- EXPERIENCE --- */
+.additional-info__experiences-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
 
-.experiences__company-project-role {
+.additional-info__experiences-company-role {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.experiences__company-project-name {
+.additional-info__experiences-company-duties {
     color: var(--primary-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-.experiences__company-project-responsibilities {
-    color: var(--secondary-text-color);
-    padding-left: 20px;
-}
-
-.additional-info {
-    flex: 1 1 40%;
-}
-
-.additional-info__education {
     margin-bottom: 20px;
 }
-
-.additional-info__education-header {
+.additional-info__experiences-company-duties-item {
+    margin: 10px;
+}
+.additional-info__experiences-company-duties-item-header {
     color: var(--secondary-text-color);
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
-}
-
-.additional-info__education-university-durability {
-    color: var(--durability-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-.additional-info__education-university-speciality {
-    color: var(--primary-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-.additional-info__education-university-name {
-    color: var(--secondary-text-color);
-}
-
-.additional-info__languages {
-    margin-bottom: 20px;
-}
-
-.additional-info__languages-header {
-    color: var(--secondary-text-color);
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.additional-info__languages-item {
-    color: var(--secondary-text-color);
 }
