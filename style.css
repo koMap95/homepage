@@ -172,14 +172,14 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
-.skills__text_checkin-button{
+.skills__text-checkin-button{
     background-color: var(--text-decoration-color);
     padding: 5px 10px;
     color: var(--primary-text-color);
     border: 1px solid var(--secondary-text-color);
     font-weight: bold;
 }
-.skills__text_emodji-reverse {
+.skills__text-emodji-reverse {
     display: inline-block;
     font-size: 20px;
     transform: rotateY(180deg);
@@ -221,18 +221,13 @@ body {
 .hobbies__content-item-quatrains {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 /* --- EXPERIENCE --- */
 .additional-info__experiences-header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
-}
-
-.additional-info__experiences-company-project {
-    margin-left: 15px;
-    margin-bottom: 25px;
 }
 
 .additional-info__experiences-company-role {
