@@ -114,6 +114,7 @@ body {
     width: 20px;
     display: flex;
     justify-content: center;
+    fill: var(--secondary-text-color);
 }
 
 .contact-info__item-icon path {
